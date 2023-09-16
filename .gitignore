@@ -1,5 +1,12 @@
 # See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
 
+# avoid accidental upload of the sketch and figma design files
+*.sketch
+*.fig
+
+# avoid accidental XD upload if you convert design file
+*.xd
+
 # dependencies
 /node_modules
 /.pnp
@@ -13,6 +20,7 @@
 
 # misc
 .DS_Store
+.prettierignore
 .env.local
 .env.development.local
 .env.test.local
