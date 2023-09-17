@@ -1,10 +1,13 @@
 {
   "files": {
-    "main.js": "/FM-space-tourism-website/static/js/main.c8d8c972.js",
+    "main.css": "/FM-space-tourism-website/static/css/main.31d6cfe0.css",
+    "main.js": "/FM-space-tourism-website/static/js/main.13f52888.js",
     "index.html": "/FM-space-tourism-website/index.html",
-    "main.c8d8c972.js.map": "/FM-space-tourism-website/static/js/main.c8d8c972.js.map"
+    "static/media/logo.svg": "/FM-space-tourism-website/static/media/logo.565f7f2c0534403f11b71994f4311210.svg",
+    "main.13f52888.js.map": "/FM-space-tourism-website/static/js/main.13f52888.js.map"
   },
   "entrypoints": [
-    "static/js/main.c8d8c972.js"
+    "static/css/main.31d6cfe0.css",
+    "static/js/main.13f52888.js"
   ]
 }
