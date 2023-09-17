@@ -1,6 +1,8 @@
 // colors
 $primary-color: #0b0d17;
 $secondary-color: #d0d6f9;
+$blur-background: rgba(255, 255, 255, 4%);
+$blur-hover: rgba(255, 255, 255, 20%);
 
 // font sizes
 $h1-fs: 150px;
@@ -18,5 +20,8 @@ $nav-text-fs: 16px;
 $h5-cs: 4.75;
 $subheading2-cs: 2.35;
 $nav-text-cs: 2.7;
+
+// navbar hover
+$hover-bar-height: 3px;
 
 // hover opacity

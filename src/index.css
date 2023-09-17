@@ -1,3 +1,47 @@
+@import url("https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@200;300;400;500;600;700&family=Bellefair&display=swap");
+* {
+  color: white;
+}
 
+body {
+  background-color: #0b0d17;
+  margin: 0;
+}
+
+.navbar-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.navbar-container .navbutton-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(255, 255, 255, 0.04);
+  height: 96px;
+  width: 60%;
+}
+.navbar-container .navbutton-container .navbutton:hover {
+  border-bottom: solid 3px rgba(255, 255, 255, 0.2);
+  border-top: solid 3px rgba(0, 0, 0, 0);
+  height: calc(100% - 6px);
+}
+.navbar-container .navbutton-container div {
+  display: flex;
+  margin: auto 30px;
+  height: 100%;
+  vertical-align: middle;
+}
+.navbar-container .navbutton-container div a {
+  display: flex;
+  align-items: center;
+  height: 100%;
+  text-decoration: none;
+}
+.navbar-container .navbutton-container .navbutton-active {
+  border-bottom: solid 3px white;
+  border-top: solid 3px rgba(0, 0, 0, 0);
+  height: calc(100% - 6px);
+}
 
 /*# sourceMappingURL=index.css.map */

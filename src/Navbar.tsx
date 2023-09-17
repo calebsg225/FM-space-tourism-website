@@ -3,15 +3,21 @@ import { Link } from 'react-router-dom';
 import logo from './assets/shared/logo.svg';
 
 const Navbar = () => {
-  const [page, setPage] = useState(0);
+  const [currentPage, setCurrentPage] = useState(0);
   return (
-    <div>
+    <section className='navbar-container'>
       <img src={logo} alt="space logo" />
-      <Link to="/"> Home </Link>
-      <Link to="/Destination"> Destination </Link>
-      <Link to="/Crew"> Crew </Link>
-      <Link to="/Technology"> Technology </Link>
-    </div>
+      <div className='navbutton-container'>
+        {[ "home", "destination", "crew", "technology" ].map((page, i) => 
+            <div className={currentPage === i ? 'navbutton-active' : 'navbutton'}>
+              <Link to={'/' + (page === 'home'? '' : page)} onClick={() => setCurrentPage(i)}>
+                <p><span>0{i}</span>&#160;{page}</p>
+              </Link>
+            </div>
+          )}
+      </div>
+      
+    </section>
   )
 }
 
