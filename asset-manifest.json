@@ -1,14 +1,18 @@
 {
   "files": {
-    "main.css": "/FM-space-tourism-website/static/css/main.f8f8d4ae.css",
-    "main.js": "/FM-space-tourism-website/static/js/main.1f0a4825.js",
+    "main.css": "/FM-space-tourism-website/static/css/main.4c5d6474.css",
+    "main.js": "/FM-space-tourism-website/static/js/main.300b4d95.js",
+    "static/media/background-home-desktop.jpg": "/FM-space-tourism-website/static/media/background-home-desktop.cdf3864ecbfdf20e8c3b.jpg",
+    "static/media/background-destination-desktop.jpg": "/FM-space-tourism-website/static/media/background-destination-desktop.468b922c69bf5499b4bc.jpg",
+    "static/media/background-crew-desktop.jpg": "/FM-space-tourism-website/static/media/background-crew-desktop.88a3c692fd34eb311e04.jpg",
+    "static/media/background-technology-desktop.jpg": "/FM-space-tourism-website/static/media/background-technology-desktop.b7b589b3c0c5ef0811d4.jpg",
     "index.html": "/FM-space-tourism-website/index.html",
     "static/media/logo.svg": "/FM-space-tourism-website/static/media/logo.565f7f2c0534403f11b71994f4311210.svg",
-    "main.f8f8d4ae.css.map": "/FM-space-tourism-website/static/css/main.f8f8d4ae.css.map",
-    "main.1f0a4825.js.map": "/FM-space-tourism-website/static/js/main.1f0a4825.js.map"
+    "main.4c5d6474.css.map": "/FM-space-tourism-website/static/css/main.4c5d6474.css.map",
+    "main.300b4d95.js.map": "/FM-space-tourism-website/static/js/main.300b4d95.js.map"
   },
   "entrypoints": [
-    "static/css/main.f8f8d4ae.css",
-    "static/js/main.1f0a4825.js"
+    "static/css/main.4c5d6474.css",
+    "static/js/main.300b4d95.js"
   ]
 }
