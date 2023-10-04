@@ -4,6 +4,10 @@ $secondary-color: #d0d6f9;
 $blur-background: rgba(255, 255, 255, 4%);
 $blur-hover: rgba(255, 255, 255, 20%);
 
+// font families
+$barlow: 'Barlow Condensed';
+$bellefair: 'Bellefair';
+
 // font sizes
 $h1-fs: 150px;
 $h2-fs: 100px;
@@ -17,9 +21,9 @@ $subheading2-fs: 14px;
 $nav-text-fs: 16px;
 
 // character space
-$h5-cs: 4.75;
-$subheading2-cs: 2.35;
-$nav-text-cs: 2.7;
+$h5-cs: 4.75px;
+$subheading2-cs: 2.35px;
+$nav-text-cs: 2.7px;
 
 // navbar hover
 $hover-bar-height: 3px;

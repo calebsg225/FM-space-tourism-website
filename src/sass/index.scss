@@ -1,9 +1,13 @@
 // variables
 @import 'vars';
 
+// mixins
+@import 'mixins';
+
 // base
 @import 'app';
 @import 'navbar';
+@import 'breakpoints';
 
 // pages
 @import 'pages/home';
@@ -13,3 +17,5 @@
 
 // components
 
+// utilities
+@import 'utilities';

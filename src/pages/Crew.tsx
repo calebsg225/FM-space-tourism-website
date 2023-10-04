@@ -1,6 +1,6 @@
 const Crew = () => {
   return (
-    <div>
+    <div className="crew-page">
       ap[sdlkjgfh]
     </div>
   )

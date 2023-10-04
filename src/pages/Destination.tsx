@@ -1,6 +1,6 @@
 const Destination = () => {
   return (
-    <div>
+    <div className="destination-page">
       
     </div>
   )

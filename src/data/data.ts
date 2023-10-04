@@ -1,5 +1,3 @@
-export const navbarData = [ "HOME", "DESTINATION", "CREW", "TECHNOLOGY" ]
-
 export const destinationsData =  [
   {
     "name": "Moon",

@@ -1,0 +1,13 @@
+.home-page {
+  @include bg-img('assets/home/background-home-desktop.jpg');
+  @include flex(space-evenly);
+  div {
+    h1 {
+      line-height: 0;
+    }
+    p {
+      line-height: 30px;
+    }
+    width: 500px;
+  }
+}

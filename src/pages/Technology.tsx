@@ -1,6 +1,6 @@
 const Technology = () => {
   return (
-    <div>
+    <div className="technology-page">
       Technology Page
     </div>
   );

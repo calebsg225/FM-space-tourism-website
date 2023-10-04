@@ -8,10 +8,11 @@ const Navbar = () => {
     <section className='navbar-container'>
       <img src={logo} alt="space logo" />
       <div className='navbutton-container'>
+        <div className="decorative-rectangle"></div>
         {[ "home", "destination", "crew", "technology" ].map((page, i) => 
             <div className={currentPage === i ? 'navbutton-active' : 'navbutton'}>
               <Link to={'/' + (page === 'home'? '' : page)} onClick={() => setCurrentPage(i)}>
-                <p><span>0{i}</span>&#160;{page}</p>
+                <p className='nav-text'><span>0{i}</span>&#160;{ page.toUpperCase() }</p>
               </Link>
             </div>
           )}

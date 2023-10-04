@@ -1,29 +1,34 @@
 .navbar-container {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
+  @include flex(space-between);
+  margin-top: 40px;
+  margin-left: 55px;
   .navbutton-container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    @include flex();
+    position: relative;
     background-color: $blur-background;
+    backdrop-filter: blur(30px);
     height: 96px;
     width: 60%;
+    .decorative-rectangle {
+      position: absolute;
+      background-color: $blur-hover;
+      height: 1px;
+      width: 57%;
+      left: -57%;
+    }
     .navbutton:hover {
       border-bottom: solid $hover-bar-height $blur-hover;
       border-top: solid $hover-bar-height rgba(0,0, 0, 0);
       height: calc(100% - $hover-bar-height * 2);
     }
     div {
-      display: flex;
       margin: auto 30px;
       height: 100%;
       vertical-align: middle;
       a {
-        display: flex;
+        @include flex();
         align-items: center;
         height: 100%;
-        text-decoration: none;
       }
     }
     .navbutton-active {

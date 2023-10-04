@@ -1,0 +1,9 @@
+.nav-text {
+  font-family: $barlow;
+  font-size: $nav-text-fs;
+  letter-spacing: $nav-text-cs;
+  font-weight: 100;
+  span {
+    font-weight: 500;
+  }
+}
